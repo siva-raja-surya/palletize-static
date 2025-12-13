@@ -213,3 +213,40 @@ footer {
 .strength-row img {
   width: 250px;
 }
+
+/* Industries Served Section */
+.suppored-by {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 140px 20px;
+}
+
+.suppored-by h3 {
+  font-size: 32px;
+}
+
+/* Industries Grid */
+.industries-support {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  padding: 0;
+}
+
+.industries-support li {
+  text-align: center;
+  width: 140px;
+}
+
+.industries-support img {
+  width: 90px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.industries-support h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
