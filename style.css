@@ -127,14 +127,12 @@ body {
   gap: 60px;
 }
 
-.strength h3 {
-  color: #26a69a;
-  margin-bottom: 10px;
-}
-
 /* SUPPORT */
 .support {
-  padding: 120px;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* padding: 140px 20px; */
+  text-align: center;
 }
 
 .support h3 {
@@ -143,6 +141,7 @@ body {
 }
 
 .support hr {
+  width: 100%;
   border: none;
   border-top: 1px solid #ccc;
   margin-bottom: 60px;
@@ -150,19 +149,15 @@ body {
 
 .support-logos {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 80px;
   flex-wrap: wrap;
 }
 
 .support-logos img {
-  height: 70px;
+  height: 140px;
   object-fit: contain;
-}
-
-.support .logos img {
-  height: 60px;
-  margin-right: 40px;
 }
 
 /* INDUSTRIES */
@@ -183,29 +178,38 @@ footer {
 }
 
 .strength {
-  padding: 120px;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* padding: 140px 20px; */
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 70px;
 }
 
-.strength-item {
+/* One row */
+.strength-row {
   display: flex;
   align-items: center;
-  gap: 60px;
+  justify-content: center;
 }
 
-.strength-item img {
-  width: 120px;
+/* Text on LEFT */
+.strength-text {
+  width: 55%;
 }
 
-.strength-item h3 {
+.strength-text h3 {
+  font-size: 42px;
   color: #26a69a;
-  font-size: 36px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
-.strength-item p {
-  font-size: 16px;
-  line-height: 1.6;
+.strength-text p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Icon on RIGHT */
+.strength-row img {
+  width: 250px;
 }
