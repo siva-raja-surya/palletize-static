@@ -113,13 +113,17 @@ body {
 
 .patent-left h3 {
   font-size: 36px;
-  margin-bottom: 20px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.003em;
 }
 
 .patent-left p {
-  font-size: 18px;
-  line-height: 1.7;
   margin-bottom: 60px;
+  font-size: 24px;
+  line-height: 1.3334133333;
+  font-weight: 500;
+  letter-spacing: 0.009em;
 }
 
 .patent-left strong {
@@ -149,11 +153,19 @@ body {
 
 /* BIO */
 .bio {
+  display: flex;
   padding: 160px;
+  justify-content: center;
+  align-items: center;
   text-align: left;
 }
-
-.bio span {
+.bio h2 {
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: bold;
+  margin: 0;
+}
+.bio Strong {
   color: #ff2a68;
 }
 
