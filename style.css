@@ -572,3 +572,19 @@ body {
   border-radius: 6px;
   cursor: pointer;
 }
+.hero-slider {
+  /* height: 40vw;
+    width: 30vw; */
+}
+
+.hero-slider img {
+  height: 80vh;
+  object-fit: cover;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-slider img {
+    height: 55vh;
+  }
+}
